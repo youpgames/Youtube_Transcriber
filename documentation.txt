@@ -1,0 +1,96 @@
+Revision Documentation
+======================
+
+Date
+----
+2026-03-17
+
+What changed
+------------
+This revision reorganized the pipeline around explicit stages and settings-driven execution.
+The prompt files were not changed.
+
+Main structural changes
+-----------------------
+1. Added settings-driven creator selection
+   - ACTIVE_CREATOR now lives in config/settings.txt
+   - DOSSIER_SOURCE now lives in config/settings.txt
+   - DATASET_ROOT now lives in config/settings.txt
+   - BAT files no longer need hardcoded creators or channels
+
+2. Added transcript source separation
+   - raw transcripts remain in individual_video_scripts/
+   - simplified transcripts are written to individual_video_scripts_simple/
+   - raw dossier state remains in _analysis/
+   - simplified dossier state is written to _analysis_simple/
+
+3. Added simplify stage
+   - simplify creates a thin cleaned version of transcript files
+   - it removes obvious filler tokens and obvious promo lines at the start/end
+   - it does not paraphrase or summarize
+   - it writes a simplify manifest so source lineage can be checked later
+
+4. Added batch_simplify mode
+   - simplifies all creator folders under the dataset root
+
+5. Added batch_repair mode
+   - repairs all creator folders under the dataset root
+
+6. Strengthened repair logic
+   - repair rebuilds channel summary/index files first
+   - repair can simplify first when the selected dossier source is simple
+   - repair reruns dossier generation and then audits the result
+
+7. Added source-aware dossier mode
+   - dossier can now run from raw or simplified transcripts
+   - if simple is selected and simplified transcripts do not exist, dossier stops with a clear message
+
+8. Added source-aware audit handling
+   - audit checks the file layer tied to the selected source
+   - raw and simplified dossier outputs are kept separate
+
+Files changed
+-------------
+Modified:
+- youtube_mass_transcriber.py
+- README.txt
+- documentation.txt
+- config/settings.txt
+- run_scrape.bat
+- run_dossier.bat
+- run_batch_dossiers.bat
+- run_audit.bat
+- run_repair.bat
+
+Added:
+- run_simplify.bat
+- run_batch_simplify.bat
+- run_batch_repair.bat
+
+Important constraints respected
+-------------------------------
+- Prompt files were not changed.
+- The transcript-only dossier logic was kept transcript-only.
+- Simplification was implemented as an optional separate layer rather than mutating raw transcripts.
+
+Mode list after revision
+------------------------
+- scrape
+- repair
+- batch_repair
+- simplify
+- batch_simplify
+- dossier
+- batch_dossiers
+- audit
+- all (legacy helper mode)
+
+Known limitations
+-----------------
+1. Simplification is intentionally conservative and rule-based.
+   It removes obvious noise, not nuanced spoken hesitations embedded in meaning.
+
+2. Repair cannot recreate transcripts that were never scraped.
+   It can rebuild dataset summary/index/state files and rerun dossier generation from existing transcripts.
+
+3. External verification / research-paper generation is still downstream and not handled here.
