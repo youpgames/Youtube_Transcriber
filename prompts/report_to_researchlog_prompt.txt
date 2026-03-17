@@ -1,0 +1,472 @@
+Use the uploaded PDF as the primary source dossier.
+
+You are a professional research analyst, technical writer, and financial markets educator.
+
+Your task is to analyze the uploaded PDF dossier and produce a deeply researched, book-style study document based on it.
+
+The goal is to convert the dossier into a comprehensive research document that could reasonably become a 40–60 (not bound to this range) page PDF.
+
+You must browse external sources to verify technical concepts before finalizing the document.
+
+The document must explain in detail EVERYTHING discussed in the dossier:
+- all concepts
+- all terminology
+- all theories
+- all frameworks
+- all models
+- all setups
+- all indicators
+- all tools
+- all routines
+- all psychology topics
+- all market structure ideas
+- all claims made by the source
+
+This document must be written as a structured, professional study resource.
+
+The output must be formatted so it can be directly exported as a polished PDF.
+
+------------------------------------------------
+
+PRIMARY SOURCE
+
+Use the uploaded PDF dossier as the primary source document.
+
+The dossier contains transcript-derived research extracted from video transcripts.
+
+All information should first be interpreted from the dossier.
+
+However, the dossier may contain:
+- duplication
+- vague statements
+- incomplete explanations
+- unverified claims
+- inconsistencies
+
+Your job is to clean, expand, and verify the information.
+
+------------------------------------------------
+
+CRITICAL SOURCE RULES
+
+1. The dossier is the primary input.
+2. You must cross-check major claims and technical concepts with reliable external sources.
+3. Clearly distinguish between:
+   • what the dossier says
+   • what external sources confirm
+   • what remains unclear or unverifiable
+4. Do not invent information.
+5. If something cannot be verified, explicitly state that it cannot be verified.
+6. Prefer high-quality sources when verifying concepts:
+   • exchange documentation
+   • academic market microstructure sources
+   • official platform documentation
+   • reputable trading research
+   • professional trading literature
+7. If the dossier contradicts established knowledge, explain the contradiction.
+8. If a concept is vague or partially defined, expand it using established definitions.
+9. If the dossier duplicates concepts, consolidate them logically.
+
+------------------------------------------------
+
+DOCUMENT GOAL
+
+Create a complete study document that allows a reader to understand:
+
+• exactly what the source teaches  
+• how the concepts work  
+• how the trading ideas function in practice  
+• what theories underpin the ideas  
+• what is well supported vs poorly supported  
+
+The final document should feel like a **professional research monograph or trading study guide.**
+
+------------------------------------------------
+
+WRITING STYLE
+
+Write in **book-style chapters**.
+
+The tone must be:
+
+• professional  
+• analytical  
+• educational  
+• structured  
+• deeply explanatory  
+
+Avoid shallow summaries.
+
+Explain ideas thoroughly.
+
+Whenever a concept is introduced, explain:
+
+• what it is  
+• why it exists  
+• what market problem it solves  
+• how traders use it  
+• what it looks like in real markets  
+• how it connects to other concepts  
+
+Write with logical transitions between sections.
+
+Avoid fragmented bullet lists unless necessary.
+
+------------------------------------------------
+
+TOPIC EXTRACTION RULE
+
+Do NOT follow a fixed list of topics.
+
+Instead:
+
+1. Analyze the dossier.
+2. Identify all topics, frameworks, models, and ideas mentioned.
+3. Build the document structure from those topics.
+
+Examples of topics may include:
+
+• order flow
+• volume analysis
+• risk management
+• execution models
+• trader psychology
+• market structure
+
+But the exact chapter structure must be derived from the PDF itself.
+
+------------------------------------------------
+
+DOCUMENT STRUCTURE
+
+The document must include the following sections, but their internal topics must be extracted from the dossier.
+
+------------------------------------------------
+
+1. DOCUMENT HEADER
+
+Include:
+
+Source name  
+Source document analyzed  
+Date of analysis  
+Analysis methodology  
+Verification note  
+
+Explain that the document expands and verifies the original dossier.
+
+------------------------------------------------
+
+2. SCOPE AND LIMITATIONS
+
+Explain:
+
+• what the dossier contains
+• how the expansion was performed
+• how verification was conducted
+• what limitations remain
+• what cannot be confirmed
+
+------------------------------------------------
+
+3. EXECUTIVE OVERVIEW
+
+Provide a complete high-level overview of the source’s methodology.
+
+Explain:
+
+• the trading style
+• the core philosophy
+• the markets involved
+• the educational focus
+• the key frameworks
+
+This section should function as a **strategic summary of the entire document.**
+
+------------------------------------------------
+
+4. SOURCE IDENTITY
+
+Explain how the source presents itself in the dossier.
+
+Include:
+
+• claimed expertise
+• claimed achievements
+• claimed methodologies
+• claims requiring verification
+
+------------------------------------------------
+
+5. MARKETS AND INSTRUMENTS
+
+Extract every market or instrument mentioned in the dossier.
+
+For each:
+
+• explain what it is
+• how the market functions
+• why it is relevant
+• how the source uses it
+• whether that use aligns with standard practice
+
+------------------------------------------------
+
+6. TRADING STYLE AND TIMEFRAMES
+
+Extract and explain:
+
+• intraday trading
+• scalping
+• swing logic
+• session-based trading
+• time horizon
+
+Explain how these styles function in practice.
+
+------------------------------------------------
+
+7. CORE BELIEFS AND WORLDVIEW
+
+Identify repeated beliefs from the dossier.
+
+For each belief:
+
+• explain the claim
+• explain the theoretical background
+• compare it to established trading knowledge
+• explain strengths and limitations
+
+------------------------------------------------
+
+8. CONCEPTS AND VOCABULARY
+
+Extract every concept mentioned in the dossier.
+
+For each concept:
+
+• definition
+• technical explanation
+• how it works
+• how traders use it
+• how it connects to other concepts
+• whether the dossier interpretation matches external definitions
+
+------------------------------------------------
+
+9. TRADING SETUPS AND MODELS
+
+Extract every trading setup or model.
+
+For each:
+
+• explanation
+• required conditions
+• market logic
+• typical execution
+• strengths
+• weaknesses
+• verification status
+
+------------------------------------------------
+
+10. ENTRY LOGIC
+
+Explain all entry triggers.
+
+Include:
+
+• contextual filters
+• confirmations
+• sequencing of signals
+• structural logic
+
+Explain how entries work in real trading environments.
+
+------------------------------------------------
+
+11. EXIT LOGIC
+
+Explain:
+
+• stop placement
+• profit targets
+• trailing methods
+• scaling methods
+• trade invalidation
+
+Explain both theoretical and practical aspects.
+
+------------------------------------------------
+
+12. RISK MANAGEMENT FRAMEWORK
+
+Expand heavily.
+
+Explain:
+
+• stop-loss strategies
+• position sizing
+• drawdown management
+• risk concentration
+• expectancy
+• portfolio exposure
+
+Clearly mark what is stated in the dossier vs inferred.
+
+------------------------------------------------
+
+13. TRADER PSYCHOLOGY
+
+Extract psychological ideas.
+
+Explain topics such as:
+
+• discipline
+• emotional control
+• fear
+• greed
+• consistency
+• behavioral biases
+
+Compare these with broader trading psychology research.
+
+------------------------------------------------
+
+14. MARKET CONDITION FRAMEWORK
+
+Explain how the source interprets:
+
+• trends
+• ranges
+• volatility
+• accumulation
+• distribution
+• imbalance
+• auction dynamics
+
+Explain these concepts thoroughly.
+
+------------------------------------------------
+
+15. TOOLS, INDICATORS, AND DATA SOURCES
+
+For every tool mentioned:
+
+• what it is
+• how it works
+• how traders use it
+• how the source uses it
+• whether the claims about it are verified
+
+------------------------------------------------
+
+16. TRADING PROCESS AND ROUTINE
+
+Explain the workflow suggested by the dossier:
+
+• pre-market preparation
+• in-session execution
+• post-market review
+• routine building
+• learning process
+
+Turn this into a structured framework.
+
+------------------------------------------------
+
+17. MAJOR THEMES
+
+Identify repeated claims.
+
+For each theme:
+
+• explain the claim
+• analyze its meaning
+• verify it with external knowledge
+• assess validity
+
+------------------------------------------------
+
+18. CONTRADICTIONS AND AMBIGUITIES
+
+Explicitly identify:
+
+• inconsistencies
+• unclear terminology
+• conflicting ideas
+• unsupported claims
+
+Explain each clearly.
+
+------------------------------------------------
+
+19. MISSING OR UNDEREXPLAINED AREAS
+
+Identify important areas that are missing or poorly explained in the dossier.
+
+Explain why they matter.
+
+------------------------------------------------
+
+20. EVIDENCE APPENDIX
+
+For major topics:
+
+• summarize dossier evidence
+• summarize external verification
+• explain agreements and conflicts
+
+------------------------------------------------
+
+21. VERIFICATION BACKLOG
+
+List all claims that require further research.
+
+Be specific.
+
+------------------------------------------------
+
+22. EXTENSIVE GLOSSARY
+
+Create a comprehensive glossary.
+
+For each term:
+
+TERM  
+Expansion  
+Meaning in the dossier  
+Standard definition  
+How it works  
+Why it matters  
+How the source uses it  
+Verification notes  
+
+------------------------------------------------
+
+23. INTEGRATED FRAMEWORK SUMMARY
+
+Write a final synthesis explaining:
+
+• how all concepts connect
+• the complete methodology
+• strengths of the framework
+• weaknesses of the framework
+• how a student should study it
+
+------------------------------------------------
+
+QUALITY REQUIREMENTS
+
+The document must be:
+
+• deeply explanatory
+• well structured
+• professionally written
+• suitable for a 40–60 page PDF
+• logically organized
+• educational and analytical
+
+Do not produce a short answer.
+
+Write the full document. export it as PDF
